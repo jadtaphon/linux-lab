@@ -1,21 +1,22 @@
 # jadtaponCLI
 
-My Tool does one thing, and one thing well.
+cd linux-lab/jadtaphonCLI
 
 
-# Installation
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
+# ติดตั้ง package ที่จำเป็น
+$pipsi install .
+$pip install --user click requests Pillow
 
 
-# Usage
 
-To use it:
+# ติดตั้ง
 
-    $ jadtaphonCLI --help
+$pip install --user .
+or
+$pip install -U --user .
+
+# ทดสอบ
+
+$ jadtaphonCLI Lukaku
+$ jadtaphonCLI Pogba
 
