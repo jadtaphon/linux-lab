@@ -15,7 +15,9 @@ $ pip install --user click requests Pillow
 # ติดตั้ง
 
 $ pip install --user .
+
 or
+
 $ pip install -U --user .
 
 # ทดสอบ
